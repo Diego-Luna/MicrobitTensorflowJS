@@ -2,12 +2,12 @@
 
 LF=$(printf '\\\012_')
 LF=${LF%_}
-EXTENSION_ID=microbitTensorflowJS
+EXTENSION_ID=MicrobitTensorflowJS
 COLLABORATOR=MoonMakers
 EXTENSION_NAME='micro:bit with TensorflowJS'
 EXTENSION_DESCRIPTION="Extensión de MoonMakers para usar TensorflowJS en BlockCode"
 
-npm install
+npm install @tensorflow/tfjs
 
 mkdir -p node_modules/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}
 cp ${EXTENSION_ID}/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}/index.js node_modules/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}/

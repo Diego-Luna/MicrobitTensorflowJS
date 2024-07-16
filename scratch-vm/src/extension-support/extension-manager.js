@@ -26,7 +26,7 @@ const builtinExtensions = {
     gdxfor: () => require('../extensions/scratch3_gdx_for')
 };
 
-builtinExtensions['microbitTensorflowJS'] = () => require('../extensions/microbitTensorflowJS');
+builtinExtensions['MicrobitTensorflowJS'] = () => require('../extensions/MicrobitTensorflowJS');
 
 /**
  * @typedef {object} ArgumentInfo - Information about an extension block argument
