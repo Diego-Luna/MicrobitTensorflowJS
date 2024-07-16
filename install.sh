@@ -2,10 +2,10 @@
 
 LF=$(printf '\\\012_')
 LF=${LF%_}
-EXTENSION_ID=MicrobitTensorflowJS
+EXTENSION_ID=microbitTensorflowJS
 COLLABORATOR=MoonMakers
 EXTENSION_NAME='micro:bit with TensorflowJS'
-EXTENSION_DESCRIPTION="Extensión de MoonMakers para usar TensorflowJS en BlockCode"
+EXTENSION_DESCRIPTION="Extension de MoonMakers para usar TensorflowJS en BlockCode"
 
 npm install @tensorflow/tfjs
 
